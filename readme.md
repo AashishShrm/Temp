@@ -681,3 +681,6 @@ export default function App() {
 - **Nothing happens when tapping the email link** → Expo Go doesn't support this; you must use a dev client (`expo-dev-client`) or a full build.
 - **`access_token` not found** → some email clients "wrap" links and strip the fragment; if this happens often, switch to the Universal Links (https) approach instead of a custom scheme — ask me and I'll set that up too.
 - **Redirect URL mismatch error from Supabase** → double check the scheme in `app.json`, `AuthContext.tsx` (`Linking.createURL`), and the Supabase Dashboard → Redirect URLs all match exactly.
+
+
+https://github.com/Lugdu84/supabase-expo-todos
